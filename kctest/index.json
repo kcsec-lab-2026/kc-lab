@@ -1,0 +1,21 @@
+{
+  "title": "Ubuntu Custom Content",
+  "description": "DESC-START <img src=x onerror=\"window.__KCX_DESC=1\"> <b>db</b> DESC-END",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "STEP-TITLE <img src=x onerror=\"window.__KCX_STEPTITLE=1\">",
+        "text": "step1.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
