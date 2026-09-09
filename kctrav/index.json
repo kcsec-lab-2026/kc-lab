@@ -1,0 +1,10 @@
+{
+  "title": "Traversal probe",
+  "description": "trav",
+  "details": {
+    "intro": { "text": "../../../../../../../../etc/passwd" },
+    "steps": [ { "text": "../kctest/intro.md" } ],
+    "finish": { "text": "finish.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}
