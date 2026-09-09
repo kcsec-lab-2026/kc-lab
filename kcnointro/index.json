@@ -1,0 +1,5 @@
+{
+  "title": "No Intro Scenario",
+  "description": "NOINTRO-DESC <img src=x onerror=\"window.__KC_SCEN_XSS=1;document.title='KCXSS-SCENARIO'\"> NOINTRO-END",
+  "backend": { "imageid": "ubuntu" }
+}
