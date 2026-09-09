@@ -1,0 +1,7 @@
+{
+  "title": "KC Sec Lab Course",
+  "description": "COURSE-DESC-START <img src=x onerror=\"window.__KC_COURSE_XSS=1;document.title='KCXSS-COURSE'\"> <b>bold</b> COURSE-DESC-END",
+  "items": [
+    { "path": "s1" }
+  ]
+}
