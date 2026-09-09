@@ -1,0 +1,10 @@
+{
+  "title": "Course scenario one",
+  "description": "S1-DESC <img src=x onerror=\"window.__KC_S1_XSS=1\"> S1-END",
+  "details": {
+    "intro": { "text": "intro.md" },
+    "steps": [ { "text": "step1.md" } ],
+    "finish": { "text": "finish.md" }
+  },
+  "backend": { "imageid": "ubuntu" }
+}
